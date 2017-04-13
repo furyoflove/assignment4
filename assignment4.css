@@ -66,6 +66,30 @@
   line-height: 60px;
 }
 
+/* --------------------
+  Everything below was added in for assignment 4
+-------------------- */
+
+.flexsearch-predictions a {
+  width: 60px;
+  height: 60px;
+  padding: 0 48px 0 10px;
+  list-style-type: none;
+  color: #333;
+  font-family: 'Helvetica', sans-serif;
+  font-style: italic;
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.flexsearch-predictions a:hover {
+  background-color: blue;
+}
+
+/* --------------------
+  End of added in CSS
+-------------------- */
+
 .flexsearch-input:focus {
   outline: none;
   border-color: #333;
